@@ -1,11 +1,217 @@
 .App {
   text-align: center;
+  /* background-color: green; */
+  height: 3600px;
+  border: 2px solid black;
+  /* margin: 20px; */
+  border-radius: 10px;
 }
+
+.navbar{
+  /* background-color: yellow; */
+  background-color: black;
+  height: 80px;
+  padding: 5px;
+  
+}
+
+.lin{
+  background-color: black;
+  border-radius: 10px;
+  width: 100%;
+  
+ 
+}
+.lin h5{
+  display: inline-block;
+  padding: 7px;
+  margin: 0.5%;
+  color: white;
+  /* background-color: red; */
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.lin img{
+  height: 40px;
+  margin-top: 10px;
+  background-color: white;
+  margin-right: 30%;
+}
+
+.pic{
+  background-color: yellow;
+  height: 570px;
+  background-image: url('../public/images/koromosho.jpg')  ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* width: auto; */
+  border: 2px solid black;
+ 
+}
+
+.pic img{
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+}
+
+.pic h1{
+  font-size: 400%;
+  color: blue;
+}
+
+.pic h2{
+  font-size: 250%;
+  color: blue;
+}
+
+.pic h3{
+  color: blue;
+  margin-top: 3%;
+  font-family: 'Shalimar', cursive;
+  /* font-weight: bolder; */
+  font-size: 400%;
+  /* background-color: green; */
+}
+
+.pic button{
+  color: white;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.theme{
+  /* background-color: grey; */
+  height: 350px;
+  margin-top: 0px;
+  color: white;
+}
+
+.theme span{
+  margin: 9%;
+  
+}
+
+.theme h2{
+  color: black;
+}
+
+.theme p{
+  font-style: italic;
+  color: black;
+  font-weight: 300;
+}
+.parao{
+  background-color: orange;
+  color: white;
+
+}
+
+.para{
+  /* background-color: red; */
+  height: 320px;
+  display: flex;
+}
+
+.para p{
+  font-weight: 100;
+}
+
+.para1{
+  width: 50%;
+  /* background-color: purple; */
+  text-align: center;
+  padding: 15px;
+}
+
+.para2{
+  width: 50%;
+  padding: 15px;
+}
+
+
+.dance{
+  background-color: green;
+  height: 960px;
+  border: 1px solid black;
+  background-image: url('../public/images/dance.jpg') ;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+.dance img{
+  /* height: 800px; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.dance h2{
+  font-weight: 300;
+  margin: 6%;
+}
+
+.dance h1{
+  font-weight: bolder;
+  font-size: 350%;
+  
+}
+
+.dance h3{
+  font-size: 200%;
+}
+
+.dance button{
+  background-color: red;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 15px 30px;
+  color: white;
+  font-size: 120%;
+  margin: 40px;
+}
+
+.rev{
+  /* background-color: orange; */
+  height: 700px;
+}
+
+.rev img{
+  height: 400px;
+  border-radius: 50%;
+}
+
+.rev h5{
+  font-size: 110%;
+  text-decoration: underline;
+}
+
+.rev h6{
+  font-size: 150%;
+  /* background-color: green; */
+  margin-top: 1%;
+  text-decoration: underline;
+  color: blue;
+}
+
+.rev p{
+  /* background-color: yellow; */
+  width: 50%;
+  margin-left: 30%;
+  font-style: oblique;
+ 
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
